@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 240" fill="none">
+  <!-- HOCT - House of Creative Things Official Studio Vector Logo -->
+  <g fill="currentColor">
+    <!-- Letter H -->
+    <path d="M 68 38 L 102 38 L 102 44 L 92 45 C 89 45.3 88 47 88 52 L 88 116 L 140 116 L 140 52 C 140 47 139 45.3 136 45 L 126 44 L 126 38 L 160 38 L 160 44 L 150 45 C 147 45.3 146 47 146 52 L 146 188 C 146 193 147 194.7 150 195 L 160 196 L 160 202 L 126 202 L 126 196 L 136 195 C 139 194.7 140 193 140 188 L 140 124 L 88 124 L 88 188 C 88 193 89 194.7 92 195 L 102 196 L 102 202 L 68 202 L 68 196 L 78 195 C 81 194.7 82 193 82 188 L 82 52 C 82 47 81 45.3 78 45 L 68 44 Z" />
+
+    <!-- Letter O (Outer Ellipse and Inner Cutout) -->
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M 230 36 C 268 36 295 72 295 120 C 295 168 268 204 230 204 C 192 204 165 168 165 120 C 165 72 192 36 230 36 Z M 230 42 C 205 42 184 76 184 120 C 184 164 205 198 230 198 C 255 198 276 164 276 120 C 276 76 255 42 230 42 Z" />
+
+    <!-- Letter C -->
+    <path d="M 390 60 C 378 44 358 36 336 36 C 294 36 265 72 265 120 C 265 168 294 204 338 204 C 362 204 384 194 396 176 L 391 171 C 378 188 358 197 338 197 C 304 197 282 165 282 120 C 282 75 304 43 338 43 C 356 43 372 51 384 65 Z" />
+
+    <!-- Letter T -->
+    <path d="M 405 38 L 505 38 L 505 66 L 498 66 C 496 52 492 45 478 44 L 464 44 L 464 188 C 464 193 465 194.7 468 195 L 478 196 L 478 202 L 436 202 L 436 196 L 446 195 C 449 194.7 450 193 450 188 L 450 44 L 436 44 C 422 45 418 52 416 66 L 409 66 Z" />
+  </g>
+
+  <!-- Nested Inscription inside the 'O' -->
+  <g fill="currentColor" text-anchor="middle" font-family="'Cinzel', 'Playfair Display', 'Baskerville', 'Times New Roman', serif" font-weight="400">
+    <text x="230" y="103" font-size="15" letter-spacing="2.5">HOUSE OF</text>
+    <text x="230" y="123" font-size="14.5" letter-spacing="1.5">CREATIVE</text>
+    <text x="230" y="142" font-size="15" letter-spacing="3">THINGS</text>
+  </g>
+</svg>

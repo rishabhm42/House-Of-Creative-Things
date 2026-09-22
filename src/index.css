@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-canvas: #3D0A10; /* Royal Deep Crimson Burgundy */
+    --text-primary: #FDF9F0; /* Ivory Silk */
+    --brand-wine: #3D0A10;
+    --brand-cream: #FDF9F0;
+    --gold-primary: #D4AF37; /* Metallic 24K Royal Gold */
+    --gold-light: #F4E0A5; /* Pale Champagne Gold */
+    --gold-dark: #997825; /* Antique Bronze Gold */
+  }
+
+  body {
+    background-color: #3D0A10;
+    color: #FDF9F0;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -0.01em;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-title {
+    font-family: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-display {
+    font-family: 'Cinzel', 'Bodoni Moda', 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-royal {
+    font-family: 'Cinzel Decorative', 'Cinzel', serif;
+  }
+}
+
+/* Custom editorial gold scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2A060B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.4);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Editorial subtle gold zari & image grain effect */
+.editorial-grain {
+  background-image: radial-gradient(rgba(212, 175, 55, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Indian Jali Lattice Pattern Overlay */
+.indian-jali-overlay {
+  background-image: 
+    radial-gradient(circle at center, rgba(212, 175, 55, 0.05) 1px, transparent 1px),
+    linear-gradient(45deg, rgba(212, 175, 55, 0.02) 25%, transparent 25%, transparent 75%, rgba(212, 175, 55, 0.02) 75%),
+    linear-gradient(-45deg, rgba(212, 175, 55, 0.02) 25%, transparent 25%, transparent 75%, rgba(212, 175, 55, 0.02) 75%);
+  background-size: 40px 40px;
+}
+
+/* Golden Shimmer / Metallic Text Effect */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF0CA 0%, #D4AF37 50%, #AA820A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-border {
+  border-image: linear-gradient(to right, #997825, #F4E0A5, #D4AF37, #997825) 1;
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px rgba(212, 175, 55, 0.18);
+}
+
