@@ -6,9 +6,9 @@
     --text-primary: #FDF9F0; /* Ivory Silk */
     --brand-wine: #3D0A10;
     --brand-cream: #FDF9F0;
-    --gold-primary: #D4AF37; /* Metallic 24K Royal Gold */
-    --gold-light: #F4E0A5; /* Pale Champagne Gold */
-    --gold-dark: #997825; /* Antique Bronze Gold */
+    --gold-primary: #F8F1E7; /* Metallic 24K Royal Gold */
+    --gold-light: #FCF9F5; /* Pale Champagne Gold */
+    --gold-dark: #D5C1A7; /* Antique Bronze Gold */
   }
 
   body {
@@ -30,6 +30,18 @@
   .font-royal {
     font-family: 'Cinzel Decorative', 'Cinzel', serif;
   }
+
+  /* Monotone Black & White Editorial Media Styling */
+  img, video {
+    filter: grayscale(100%) contrast(115%) brightness(95%) !important;
+    -webkit-filter: grayscale(100%) contrast(115%) brightness(95%) !important;
+    transition: filter 0.4s ease, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  img:hover, video:hover {
+    filter: grayscale(100%) contrast(122%) brightness(100%) !important;
+    -webkit-filter: grayscale(100%) contrast(122%) brightness(100%) !important;
+  }
 }
 
 /* Custom editorial gold scrollbar */
@@ -43,41 +55,41 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(212, 175, 55, 0.4);
+  background: rgba(248, 241, 231, 0.4);
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #D4AF37;
+  background: #F8F1E7;
 }
 
 /* Editorial subtle gold zari & image grain effect */
 .editorial-grain {
-  background-image: radial-gradient(rgba(212, 175, 55, 0.08) 1px, transparent 0);
+  background-image: radial-gradient(rgba(248, 241, 231, 0.08) 1px, transparent 0);
   background-size: 24px 24px;
 }
 
 /* Indian Jali Lattice Pattern Overlay */
 .indian-jali-overlay {
   background-image: 
-    radial-gradient(circle at center, rgba(212, 175, 55, 0.05) 1px, transparent 1px),
-    linear-gradient(45deg, rgba(212, 175, 55, 0.02) 25%, transparent 25%, transparent 75%, rgba(212, 175, 55, 0.02) 75%),
-    linear-gradient(-45deg, rgba(212, 175, 55, 0.02) 25%, transparent 25%, transparent 75%, rgba(212, 175, 55, 0.02) 75%);
+    radial-gradient(circle at center, rgba(248, 241, 231, 0.05) 1px, transparent 1px),
+    linear-gradient(45deg, rgba(248, 241, 231, 0.02) 25%, transparent 25%, transparent 75%, rgba(248, 241, 231, 0.02) 75%),
+    linear-gradient(-45deg, rgba(248, 241, 231, 0.02) 25%, transparent 25%, transparent 75%, rgba(248, 241, 231, 0.02) 75%);
   background-size: 40px 40px;
 }
 
 /* Golden Shimmer / Metallic Text Effect */
 .gold-gradient-text {
-  background: linear-gradient(135deg, #FFF0CA 0%, #D4AF37 50%, #AA820A 100%);
+  background: linear-gradient(135deg, #FCF9F5 0%, #F8F1E7 50%, #E8DCCB 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .gold-gradient-border {
-  border-image: linear-gradient(to right, #997825, #F4E0A5, #D4AF37, #997825) 1;
+  border-image: linear-gradient(to right, #D5C1A7, #FCF9F5, #F8F1E7, #D5C1A7) 1;
 }
 
 .gold-glow {
-  box-shadow: 0 0 25px rgba(212, 175, 55, 0.18);
+  box-shadow: 0 0 25px rgba(248, 241, 231, 0.18);
 }
 

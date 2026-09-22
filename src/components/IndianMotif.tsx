@@ -2,7 +2,7 @@ import React from 'react';
 
 // Elegant Indian Royal Architectural motifs, Jharokha arch filigree, and Mandala corner accents in fine hairline gold vector
 
-export const RoyalJharokhaArch: React.FC<{ className?: string }> = ({ className = 'w-16 h-8 text-[#E2C799]' }) => (
+export const RoyalJharokhaArch: React.FC<{ className?: string }> = ({ className = 'w-16 h-8 text-[#E8DCCB]' }) => (
   <svg
     viewBox="0 0 120 40"
     fill="none"
@@ -36,7 +36,7 @@ export const RoyalJharokhaArch: React.FC<{ className?: string }> = ({ className 
 export const GoldMandalaCorner: React.FC<{
   className?: string;
   position?: 'top-left' | 'top-right' | 'bottom-left' | 'bottom-right';
-}> = ({ className = 'w-16 h-16 text-[#D4AF37]', position = 'top-left' }) => {
+}> = ({ className = 'w-16 h-16 text-[#F8F1E7]', position = 'top-left' }) => {
   const rotationClass = {
     'top-left': '',
     'top-right': 'rotate-90',
@@ -77,19 +77,19 @@ export const GoldMandalaCorner: React.FC<{
 
 export const GoldDivider: React.FC<{ className?: string }> = ({ className = 'w-full my-6' }) => (
   <div className={`flex items-center justify-center gap-3 ${className}`}>
-    <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-[#D4AF37]/50 to-[#D4AF37]" />
-    <div className="flex items-center gap-1.5 text-[#E6CA65]">
-      <span className="w-1 h-1 rotate-45 bg-[#D4AF37]" />
-      <svg className="w-5 h-5 text-[#E6CA65]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2">
+    <div className="h-[1px] flex-1 bg-gradient-to-r from-transparent via-[#F8F1E7]/50 to-[#F8F1E7]" />
+    <div className="flex items-center gap-1.5 text-[#F8F1E7]">
+      <span className="w-1 h-1 rotate-45 bg-[#F8F1E7]" />
+      <svg className="w-5 h-5 text-[#F8F1E7]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2">
         <path d="M12 2 C13 7 17 11 22 12 C17 13 13 17 12 22 C11 17 7 13 2 12 C7 11 11 7 12 2 Z" fill="currentColor" fillOpacity="0.2" />
       </svg>
-      <span className="w-1 h-1 rotate-45 bg-[#D4AF37]" />
+      <span className="w-1 h-1 rotate-45 bg-[#F8F1E7]" />
     </div>
-    <div className="h-[1px] flex-1 bg-gradient-to-l from-transparent via-[#D4AF37]/50 to-[#D4AF37]" />
+    <div className="h-[1px] flex-1 bg-gradient-to-l from-transparent via-[#F8F1E7]/50 to-[#F8F1E7]" />
   </div>
 );
 
-export const MarigoldCrest: React.FC<{ className?: string }> = ({ className = 'w-8 h-8 text-[#D4AF37]' }) => (
+export const MarigoldCrest: React.FC<{ className?: string }> = ({ className = 'w-8 h-8 text-[#F8F1E7]' }) => (
   <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className={className} aria-hidden="true">
     {/* Stylized Indian Heritage Lotus / Marigold Eight-Point Blossom */}
     <circle cx="16" cy="16" r="3" fill="currentColor" />

@@ -20,7 +20,7 @@ export const HoctLogo: React.FC<HoctLogoProps> = ({
       />
 
       {showSubtitle && (
-        <span className="text-[10px] uppercase tracking-[0.3em] text-[#D4AF37] font-mono pl-1">
+        <span className="text-[10px] uppercase tracking-[0.3em] text-[#F8F1E7] font-mono pl-1">
           House of Creative Things
         </span>
       )}

@@ -31,14 +31,12 @@ export interface ProjectItem {
 }
 
 export interface InquiryFormData {
-  clientName: string;
-  companyName: string;
+  fullName: string;
   email: string;
-  services: string[];
-  timeline: string;
-  budget: string;
-  vision: string;
-  referenceUrl?: string;
+  phone: string;
+  companyOrBrand?: string;
+  message?: string;
+  serviceInterest?: string;
 }
 
 export interface LogoConfig {
