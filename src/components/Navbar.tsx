@@ -65,7 +65,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         >
           {isHoctBrand ? (
             <div className="flex items-center gap-2">
-              <HoctLogo className="h-9 sm:h-10 w-auto" />
+              <HoctLogo className="h-16 sm:h-20 w-auto" />
             </div>
           ) : logoConfig.type === 'image' && logoConfig.imageUrl ? (
             <img
