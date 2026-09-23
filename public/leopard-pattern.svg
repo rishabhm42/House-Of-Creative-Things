@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+
+    <g class="rosette">
+      <ellipse cx="50" cy="50" rx="5" ry="3.9" transform="rotate(15 50 50)" fill="#000000" opacity="0.3" />
+      <path d="M 43.6 35.7 C 51.1 33.2 59 37.6 59.7 43.5 C 54.4 42.1 48.6 38.2 43.6 35.7 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 62 47.5 C 65.4 56.4 59.6 65.1 53.2 63.4 C 57.1 57.6 59.1 50.2 62 47.5 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 39.2 43.7 C 33.4 52.4 37.8 61.5 44.7 61.1 C 43.3 53.9 42.3 49.1 39.2 43.7 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 43.6 35.7 C 51.1 33.2 59 37.6 59.7 43.5 C 54.4 42.1 48.6 38.2 43.6 35.7 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 62 47.5 C 65.4 56.4 59.6 65.1 53.2 63.4 C 57.1 57.6 59.1 50.2 62 47.5 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 39.2 43.7 C 33.4 52.4 37.8 61.5 44.7 61.1 C 43.3 53.9 42.3 49.1 39.2 43.7 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+    </g>
+  
+
+    <g class="rosette">
+      <ellipse cx="150" cy="45" rx="4.5" ry="3.5" transform="rotate(-40 150 45)" fill="#000000" opacity="0.3" />
+      <path d="M 136 42.4 C 138.1 35.4 145.5 31.8 150.2 34.4 C 146.4 37.6 140.5 39.9 136 42.4 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 154.4 34.7 C 162.8 36.9 166.3 45.7 161.7 49.6 C 159.3 43.7 154.8 38.3 154.4 34.7 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 139.6 49.8 C 143.1 58.6 152.2 60.1 155.5 54.7 C 149.4 52 145.3 50.3 139.6 49.8 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 136 42.4 C 138.1 35.4 145.5 31.8 150.2 34.4 C 146.4 37.6 140.5 39.9 136 42.4 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 154.4 34.7 C 162.8 36.9 166.3 45.7 161.7 49.6 C 159.3 43.7 154.8 38.3 154.4 34.7 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 139.6 49.8 C 143.1 58.6 152.2 60.1 155.5 54.7 C 149.4 52 145.3 50.3 139.6 49.8 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+    </g>
+  
+
+    <g class="rosette">
+      <ellipse cx="100" cy="105" rx="5.6" ry="4.4" transform="rotate(75 100 105)" fill="#000000" opacity="0.3" />
+      <path d="M 110.4 90.6 C 117.1 96.5 117.3 106.8 111.9 110.9 C 110.3 104.8 110.8 96.9 110.4 90.6 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 109.3 115.5 C 102.4 123.8 90.6 123 88.7 115.8 C 96.6 116.3 105 114 109.3 115.5 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 100.1 90.7 C 88.2 90 81.7 99.5 86.1 106.1 C 92.3 100.6 96.5 96.9 100.1 90.7 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 110.4 90.6 C 117.1 96.5 117.3 106.8 111.9 110.9 C 110.3 104.8 110.8 96.9 110.4 90.6 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 109.3 115.5 C 102.4 123.8 90.6 123 88.7 115.8 C 96.6 116.3 105 114 109.3 115.5 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 100.1 90.7 C 88.2 90 81.7 99.5 86.1 106.1 C 92.3 100.6 96.5 96.9 100.1 90.7 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+    </g>
+  
+
+    <g class="rosette">
+      <ellipse cx="45" cy="155" rx="4.7" ry="3.7" transform="rotate(110 45 155)" fill="#000000" opacity="0.3" />
+      <path d="M 59.1 150.1 C 60.9 157.4 56 164.6 50.4 164.8 C 52.2 159.8 56.3 154.6 59.1 150.1 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 46.3 166.7 C 37.6 169.1 29.8 162.9 32 157 C 37.2 161.1 44.1 163.6 46.3 166.7 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 51.9 145.2 C 44.1 139 35 142.4 34.9 149.1 C 41.9 148.3 46.5 147.7 51.9 145.2 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 59.1 150.1 C 60.9 157.4 56 164.6 50.4 164.8 C 52.2 159.8 56.3 154.6 59.1 150.1 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 46.3 166.7 C 37.6 169.1 29.8 162.9 32 157 C 37.2 161.1 44.1 163.6 46.3 166.7 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 51.9 145.2 C 44.1 139 35 142.4 34.9 149.1 C 41.9 148.3 46.5 147.7 51.9 145.2 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+    </g>
+  
+
+    <g class="rosette">
+      <ellipse cx="155" cy="150" rx="5.2" ry="4" transform="rotate(-60 155 150)" fill="#000000" opacity="0.3" />
+      <path d="M 138.9 152.6 C 138.3 144.4 144.9 137.5 151.1 138.4 C 148.2 143.4 142.7 148.2 138.9 152.6 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 155.8 137.2 C 165.6 136.2 172.9 144.4 169.4 150.3 C 164.6 144.9 157.6 140.9 155.8 137.2 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 145.7 159.2 C 152.9 167.4 163.3 165.4 164.8 158.3 C 157.1 157.9 152 157.5 145.7 159.2 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 138.9 152.6 C 138.3 144.4 144.9 137.5 151.1 138.4 C 148.2 143.4 142.7 148.2 138.9 152.6 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 155.8 137.2 C 165.6 136.2 172.9 144.4 169.4 150.3 C 164.6 144.9 157.6 140.9 155.8 137.2 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 145.7 159.2 C 152.9 167.4 163.3 165.4 164.8 158.3 C 157.1 157.9 152 157.5 145.7 159.2 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+    </g>
+  
+
+    <g class="rosette">
+      <ellipse cx="0" cy="100" rx="4.5" ry="3.5" transform="rotate(30 0 100)" fill="#000000" opacity="0.3" />
+      <path d="M -2.3 86 C 4.9 85.5 10.8 91.2 10.1 96.6 C 5.7 94.1 1.5 89.3 -2.3 86 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 11.2 100.7 C 12 109.2 4.9 115.5 -0.3 112.5 C 4.4 108.3 7.9 102.3 11.2 100.7 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M -8 91.9 C -15.1 98.2 -13.4 107.3 -7.2 108.5 C -6.8 101.8 -6.6 97.4 -8 91.9 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M -2.3 86 C 4.9 85.5 10.8 91.2 10.1 96.6 C 5.7 94.1 1.5 89.3 -2.3 86 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 11.2 100.7 C 12 109.2 4.9 115.5 -0.3 112.5 C 4.4 108.3 7.9 102.3 11.2 100.7 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M -8 91.9 C -15.1 98.2 -13.4 107.3 -7.2 108.5 C -6.8 101.8 -6.6 97.4 -8 91.9 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+    </g>
+  
+
+    <g class="rosette">
+      <ellipse cx="200" cy="100" rx="4.5" ry="3.5" transform="rotate(30 200 100)" fill="#000000" opacity="0.3" />
+      <path d="M 197.7 86 C 204.9 85.5 210.8 91.2 210.1 96.6 C 205.7 94.1 201.5 89.3 197.7 86 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 211.2 100.7 C 212 109.2 204.9 115.5 199.7 112.5 C 204.4 108.3 207.9 102.3 211.2 100.7 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 192 91.9 C 184.9 98.2 186.6 107.3 192.8 108.5 C 193.2 101.8 193.4 97.4 192 91.9 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 197.7 86 C 204.9 85.5 210.8 91.2 210.1 96.6 C 205.7 94.1 201.5 89.3 197.7 86 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 211.2 100.7 C 212 109.2 204.9 115.5 199.7 112.5 C 204.4 108.3 207.9 102.3 211.2 100.7 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 192 91.9 C 184.9 98.2 186.6 107.3 192.8 108.5 C 193.2 101.8 193.4 97.4 192 91.9 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+    </g>
+  
+
+    <g class="rosette">
+      <ellipse cx="100" cy="0" rx="4.5" ry="3.5" transform="rotate(-20 100 0)" fill="#000000" opacity="0.3" />
+      <path d="M 87.8 -7.3 C 92.1 -13.1 100.3 -13.9 103.8 -9.9 C 99.1 -8.2 92.8 -8 87.8 -7.3 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 107.7 -8.1 C 114.8 -3.3 115 6.2 109.4 8.3 C 109.2 2 106.8 -4.6 107.7 -8.1 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 88.6 0.9 C 88.9 10.4 96.9 15 101.9 11 C 97 6.4 93.8 3.3 88.6 0.9 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 87.8 -7.3 C 92.1 -13.1 100.3 -13.9 103.8 -9.9 C 99.1 -8.2 92.8 -8 87.8 -7.3 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 107.7 -8.1 C 114.8 -3.3 115 6.2 109.4 8.3 C 109.2 2 106.8 -4.6 107.7 -8.1 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 88.6 0.9 C 88.9 10.4 96.9 15 101.9 11 C 97 6.4 93.8 3.3 88.6 0.9 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+    </g>
+  
+
+    <g class="rosette">
+      <ellipse cx="100" cy="200" rx="4.5" ry="3.5" transform="rotate(-20 100 200)" fill="#000000" opacity="0.3" />
+      <path d="M 87.8 192.7 C 92.1 186.9 100.3 186.1 103.8 190.1 C 99.1 191.8 92.8 192 87.8 192.7 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 107.7 191.9 C 114.8 196.7 115 206.2 109.4 208.3 C 109.2 202 106.8 195.4 107.7 191.9 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 88.6 200.9 C 88.9 210.4 96.9 215 101.9 211 C 97 206.4 93.8 203.3 88.6 200.9 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 87.8 192.7 C 92.1 186.9 100.3 186.1 103.8 190.1 C 99.1 191.8 92.8 192 87.8 192.7 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 107.7 191.9 C 114.8 196.7 115 206.2 109.4 208.3 C 109.2 202 106.8 195.4 107.7 191.9 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 88.6 200.9 C 88.9 210.4 96.9 215 101.9 211 C 97 206.4 93.8 203.3 88.6 200.9 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+    </g>
+  
+
+    <g class="rosette">
+      <ellipse cx="0" cy="0" rx="4.1" ry="3.2" transform="rotate(45 0 0)" fill="#000000" opacity="0.3" />
+      <path d="M 1.3 -12.7 C 7.6 -11.5 11.5 -5.1 9.5 -0.6 C 6.4 -3.8 3.8 -8.9 1.3 -12.7 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 9.5 3.2 C 8.3 10.8 0.6 14.6 -3.2 10.8 C 1.9 8.3 6.4 3.8 9.5 3.2 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M -5.1 -8.9 C -12.7 -5.1 -13.4 3.2 -8.3 5.7 C -6.4 0 -5.1 -3.8 -5.1 -8.9 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 1.3 -12.7 C 7.6 -11.5 11.5 -5.1 9.5 -0.6 C 6.4 -3.8 3.8 -8.9 1.3 -12.7 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 9.5 3.2 C 8.3 10.8 0.6 14.6 -3.2 10.8 C 1.9 8.3 6.4 3.8 9.5 3.2 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M -5.1 -8.9 C -12.7 -5.1 -13.4 3.2 -8.3 5.7 C -6.4 0 -5.1 -3.8 -5.1 -8.9 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+    </g>
+  
+
+    <g class="rosette">
+      <ellipse cx="200" cy="0" rx="4.1" ry="3.2" transform="rotate(45 200 0)" fill="#000000" opacity="0.3" />
+      <path d="M 201.3 -12.7 C 207.6 -11.5 211.5 -5.1 209.5 -0.6 C 206.4 -3.8 203.8 -8.9 201.3 -12.7 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 209.5 3.2 C 208.3 10.8 200.6 14.6 196.8 10.8 C 201.9 8.3 206.4 3.8 209.5 3.2 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 194.9 -8.9 C 187.3 -5.1 186.6 3.2 191.7 5.7 C 193.6 0 194.9 -3.8 194.9 -8.9 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 201.3 -12.7 C 207.6 -11.5 211.5 -5.1 209.5 -0.6 C 206.4 -3.8 203.8 -8.9 201.3 -12.7 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 209.5 3.2 C 208.3 10.8 200.6 14.6 196.8 10.8 C 201.9 8.3 206.4 3.8 209.5 3.2 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 194.9 -8.9 C 187.3 -5.1 186.6 3.2 191.7 5.7 C 193.6 0 194.9 -3.8 194.9 -8.9 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+    </g>
+  
+
+    <g class="rosette">
+      <ellipse cx="0" cy="200" rx="4.1" ry="3.2" transform="rotate(45 0 200)" fill="#000000" opacity="0.3" />
+      <path d="M 1.3 187.3 C 7.6 188.5 11.5 194.9 9.5 199.4 C 6.4 196.2 3.8 191.1 1.3 187.3 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 9.5 203.2 C 8.3 210.8 0.6 214.6 -3.2 210.8 C 1.9 208.3 6.4 203.8 9.5 203.2 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M -5.1 191.1 C -12.7 194.9 -13.4 203.2 -8.3 205.7 C -6.4 200 -5.1 196.2 -5.1 191.1 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 1.3 187.3 C 7.6 188.5 11.5 194.9 9.5 199.4 C 6.4 196.2 3.8 191.1 1.3 187.3 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 9.5 203.2 C 8.3 210.8 0.6 214.6 -3.2 210.8 C 1.9 208.3 6.4 203.8 9.5 203.2 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M -5.1 191.1 C -12.7 194.9 -13.4 203.2 -8.3 205.7 C -6.4 200 -5.1 196.2 -5.1 191.1 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+    </g>
+  
+
+    <g class="rosette">
+      <ellipse cx="200" cy="200" rx="4.1" ry="3.2" transform="rotate(45 200 200)" fill="#000000" opacity="0.3" />
+      <path d="M 201.3 187.3 C 207.6 188.5 211.5 194.9 209.5 199.4 C 206.4 196.2 203.8 191.1 201.3 187.3 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 209.5 203.2 C 208.3 210.8 200.6 214.6 196.8 210.8 C 201.9 208.3 206.4 203.8 209.5 203.2 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 194.9 191.1 C 187.3 194.9 186.6 203.2 191.7 205.7 C 193.6 200 194.9 196.2 194.9 191.1 Z" fill="#F8F1E7" opacity="0.16" />
+      <path d="M 201.3 187.3 C 207.6 188.5 211.5 194.9 209.5 199.4 C 206.4 196.2 203.8 191.1 201.3 187.3 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 209.5 203.2 C 208.3 210.8 200.6 214.6 196.8 210.8 C 201.9 208.3 206.4 203.8 209.5 203.2 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+      <path d="M 194.9 191.1 C 187.3 194.9 186.6 203.2 191.7 205.7 C 193.6 200 194.9 196.2 194.9 191.1 Z" fill="#000000" opacity="0.22" transform="translate(1, 1)" />
+    </g>
+  
+<ellipse cx="22" cy="45" rx="3.5" ry="2.5" transform="rotate(20 22 45)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="22.8" cy="45.8" rx="2.8000000000000003" ry="2" transform="rotate(20 22 45)" fill="#000000" opacity="0.25" />
+<ellipse cx="80" cy="40" rx="4" ry="3" transform="rotate(-35 80 40)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="80.8" cy="40.8" rx="3.2" ry="2.4000000000000004" transform="rotate(-35 80 40)" fill="#000000" opacity="0.25" />
+<ellipse cx="120" cy="25" rx="3" ry="2" transform="rotate(50 120 25)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="120.8" cy="25.8" rx="2.4000000000000004" ry="1.6" transform="rotate(50 120 25)" fill="#000000" opacity="0.25" />
+<ellipse cx="175" cy="45" rx="3.5" ry="2.5" transform="rotate(10 175 45)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="175.8" cy="45.8" rx="2.8000000000000003" ry="2" transform="rotate(10 175 45)" fill="#000000" opacity="0.25" />
+<ellipse cx="30" cy="95" rx="4" ry="3" transform="rotate(-15 30 95)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="30.8" cy="95.8" rx="3.2" ry="2.4000000000000004" transform="rotate(-15 30 95)" fill="#000000" opacity="0.25" />
+<ellipse cx="75" cy="80" rx="3.5" ry="2.5" transform="rotate(45 75 80)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="75.8" cy="80.8" rx="2.8000000000000003" ry="2" transform="rotate(45 75 80)" fill="#000000" opacity="0.25" />
+<ellipse cx="130" cy="85" rx="4" ry="3" transform="rotate(-25 130 85)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="130.8" cy="85.8" rx="3.2" ry="2.4000000000000004" transform="rotate(-25 130 85)" fill="#000000" opacity="0.25" />
+<ellipse cx="170" cy="95" rx="3" ry="2" transform="rotate(60 170 95)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="170.8" cy="95.8" rx="2.4000000000000004" ry="1.6" transform="rotate(60 170 95)" fill="#000000" opacity="0.25" />
+<ellipse cx="75" cy="130" rx="3.5" ry="2.5" transform="rotate(-45 75 130)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="75.8" cy="130.8" rx="2.8000000000000003" ry="2" transform="rotate(-45 75 130)" fill="#000000" opacity="0.25" />
+<ellipse cx="125" cy="135" rx="4" ry="3" transform="rotate(30 125 135)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="125.8" cy="135.8" rx="3.2" ry="2.4000000000000004" transform="rotate(30 125 135)" fill="#000000" opacity="0.25" />
+<ellipse cx="25" cy="160" rx="3" ry="2" transform="rotate(15 25 160)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="25.8" cy="160.8" rx="2.4000000000000004" ry="1.6" transform="rotate(15 25 160)" fill="#000000" opacity="0.25" />
+<ellipse cx="85" cy="175" rx="4" ry="3" transform="rotate(-20 85 175)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="85.8" cy="175.8" rx="3.2" ry="2.4000000000000004" transform="rotate(-20 85 175)" fill="#000000" opacity="0.25" />
+<ellipse cx="130" cy="185" rx="3.5" ry="2.5" transform="rotate(40 130 185)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="130.8" cy="185.8" rx="2.8000000000000003" ry="2" transform="rotate(40 130 185)" fill="#000000" opacity="0.25" />
+<ellipse cx="175" cy="165" rx="4" ry="3" transform="rotate(-10 175 165)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="175.8" cy="165.8" rx="3.2" ry="2.4000000000000004" transform="rotate(-10 175 165)" fill="#000000" opacity="0.25" />
+<ellipse cx="50" cy="0" rx="3" ry="2" transform="rotate(0 50 0)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="50.8" cy="0.8" rx="2.4000000000000004" ry="1.6" transform="rotate(0 50 0)" fill="#000000" opacity="0.25" />
+<ellipse cx="50" cy="200" rx="3" ry="2" transform="rotate(0 50 200)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="50.8" cy="200.8" rx="2.4000000000000004" ry="1.6" transform="rotate(0 50 200)" fill="#000000" opacity="0.25" />
+<ellipse cx="150" cy="0" rx="3.5" ry="2.5" transform="rotate(20 150 0)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="150.8" cy="0.8" rx="2.8000000000000003" ry="2" transform="rotate(20 150 0)" fill="#000000" opacity="0.25" />
+<ellipse cx="150" cy="200" rx="3.5" ry="2.5" transform="rotate(20 150 200)" fill="#F8F1E7" opacity="0.14" />
+          <ellipse cx="150.8" cy="200.8" rx="2.8000000000000003" ry="2" transform="rotate(20 150 200)" fill="#000000" opacity="0.25" />
+</svg>
