@@ -36,14 +36,6 @@ export const ShowreelSection: React.FC<ShowreelSectionProps> = ({ onOpenInquiry 
 
   return (
     <section id="showreel" className="py-24 md:py-36 bg-[#2A060B] text-[#FDF9F0] relative border-t border-[#F8F1E7]/25 overflow-hidden">
-      {/* Background Mandala Accents */}
-      <div className="absolute top-0 right-0 opacity-10 pointer-events-none">
-        <GoldMandalaCorner className="w-56 h-56 text-[#F8F1E7]" position="top-right" />
-      </div>
-      <div className="absolute bottom-0 left-0 opacity-10 pointer-events-none">
-        <GoldMandalaCorner className="w-56 h-56 text-[#F8F1E7]" position="bottom-left" />
-      </div>
-
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         {/* Section Masthead */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-12 pb-8 border-b border-[#F8F1E7]/20">

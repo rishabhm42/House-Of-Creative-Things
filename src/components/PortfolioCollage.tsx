@@ -26,14 +26,6 @@ export const PortfolioCollage: React.FC<PortfolioCollageProps> = ({ onSelectProj
         FOLIO
       </div>
 
-      {/* Decorative Gold Mandala Corners */}
-      <div className="absolute top-0 right-0 opacity-10 pointer-events-none">
-        <GoldMandalaCorner className="w-56 h-56 text-[#F8F1E7]" position="top-right" />
-      </div>
-      <div className="absolute bottom-0 left-0 opacity-10 pointer-events-none">
-        <GoldMandalaCorner className="w-56 h-56 text-[#F8F1E7]" position="bottom-left" />
-      </div>
-
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         {/* Section Header with Large Editorial Typography & Interactive Controls */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 pb-12 border-b border-[#F8F1E7]/25">
@@ -416,7 +408,7 @@ export const PortfolioCollage: React.FC<PortfolioCollageProps> = ({ onSelectProj
             {/* SPREAD 04: Asymmetrical Magazine Triptych */}
             <div className="pt-6">
               <div className="flex items-center gap-3 mb-10 pb-4 border-b border-[#F8F1E7]/25">
-                <MarigoldCrest className="w-4 h-4 text-[#F8F1E7]" />
+                <span className="w-6 h-[1px] bg-[#F8F1E7]" />
                 <span className="text-xs uppercase tracking-[0.35em] text-[#F8F1E7] font-bold font-mono">
                   Plate Series III // Form & Heritage Architecture
                 </span>

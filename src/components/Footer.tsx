@@ -36,7 +36,7 @@ export const Footer: React.FC<FooterProps> = ({
         <div className="pb-16 border-b border-[#F8F1E7]/25 flex flex-col lg:flex-row lg:items-end justify-between gap-10">
           <div className="max-w-3xl">
             <div className="flex items-center gap-3 mb-4">
-              <RoyalJharokhaArch className="w-16 h-6 text-[#F8F1E7]" />
+              <span className="w-6 h-[1px] bg-[#F8F1E7]" />
               <span className="text-xs uppercase tracking-[0.35em] text-[#F8F1E7] font-semibold font-mono">
                 Studio Commissions
               </span>
@@ -67,7 +67,7 @@ export const Footer: React.FC<FooterProps> = ({
           <div className="space-y-4">
             {isHoctBrand ? (
               <div className="space-y-2">
-                <HoctLogo className="h-10 w-auto" showSubtitle={true} />
+                <HoctLogo className="h-12 sm:h-14 w-auto" showSubtitle={true} />
               </div>
             ) : logoConfig.type === 'image' && logoConfig.imageUrl ? (
               <img

@@ -21,17 +21,9 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigateTo }) => {
     <div className="pt-24 md:pt-32">
       {/* Editorial Page Masthead */}
       <section className="px-6 md:px-12 pb-14 border-b border-[#F8F1E7]/20 relative overflow-hidden">
-        {/* Subtle Indian Architectural Jali & Corners */}
-        <div className="absolute top-0 right-0 opacity-15 pointer-events-none">
-          <GoldMandalaCorner className="w-48 h-48 text-[#F8F1E7]" position="top-right" />
-        </div>
-        <div className="absolute bottom-0 left-0 opacity-15 pointer-events-none">
-          <GoldMandalaCorner className="w-48 h-48 text-[#F8F1E7]" position="bottom-left" />
-        </div>
-
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex items-center gap-3 mb-5">
-            <MarigoldCrest className="w-4 h-4 text-[#F8F1E7]" />
+            <span className="w-6 h-[1px] bg-[#F8F1E7]" />
             <span className="text-[10px] uppercase tracking-[0.35em] text-[#F8F1E7] font-mono font-bold">
               HOCT Studio Foundations
             </span>
@@ -43,12 +35,8 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigateTo }) => {
 
           <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-10">
             <div className="max-w-3xl">
-              <div className="mb-4">
-                <HoctLogo className="h-10 w-auto" />
-              </div>
-
-              <div className="my-3">
-                <RoyalJharokhaArch className="w-24 h-6 text-[#F8F1E7]/70" />
+              <div className="mb-6">
+                <HoctLogo className="h-14 sm:h-18 w-auto" showSubtitle={true} />
               </div>
 
               <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl text-[#FDF9F0] font-normal leading-[1.05]">
@@ -107,9 +95,6 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigateTo }) => {
           </div>
 
           <div className="mt-16 p-8 sm:p-12 border-2 border-[#F8F1E7]/40 bg-[#1E0407]/90 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-2xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 opacity-10 pointer-events-none">
-              <GoldMandalaCorner className="w-36 h-36 text-[#F8F1E7]" position="top-right" />
-            </div>
             <div className="relative z-10">
               <h3 className="font-serif text-2xl sm:text-3xl text-[#FDF9F0]">
                 Commission a bespoke edition with House of Creative Things.

@@ -19,7 +19,7 @@ export const WorksPage: React.FC<WorksPageProps> = ({
       <section className="px-6 md:px-12 pb-12 border-b border-[#F8F1E7]/20">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-3 mb-4">
-            <MarigoldCrest className="w-4 h-4 text-[#F8F1E7]" />
+            <span className="w-6 h-[1px] bg-[#F8F1E7]" />
             <span className="text-[10px] uppercase tracking-[0.35em] text-[#F8F1E7] font-mono font-bold">
               HOCT Studio Archive // Portfolio Folio
             </span>

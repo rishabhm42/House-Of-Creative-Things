@@ -33,7 +33,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-4 space-y-4">
               <div className="flex items-center gap-2">
-                <MarigoldCrest className="w-5 h-5 text-[#F8F1E7]" />
+                <span className="w-6 h-[1px] bg-[#F8F1E7]" />
                 <span className="text-[10px] uppercase tracking-[0.35em] text-[#F8F1E7] font-mono font-bold block">
                   Atelier Manifesto // 01
                 </span>
@@ -144,10 +144,6 @@ export const HomePage: React.FC<HomePageProps> = ({
 
           {/* Full Archive Banner Callout */}
           <div className="mt-14 p-8 border border-[#F8F1E7]/35 bg-[#2A060B]/70 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-xl relative overflow-hidden">
-            <div className="absolute -right-6 -bottom-6 w-32 h-32 opacity-10 pointer-events-none">
-              <RoyalJharokhaArch className="w-full h-full text-[#F8F1E7]" />
-            </div>
-
             <div>
               <span className="text-[10px] uppercase tracking-[0.3em] font-mono text-[#F8F1E7] block mb-1">
                 The Complete Studio Monograph
@@ -321,7 +317,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       <section className="py-20 px-6 md:px-12 bg-[#2A060B]/80">
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <div className="flex justify-center">
-            <HoctLogo className="h-10 w-auto" />
+            <HoctLogo className="h-14 sm:h-18 w-auto" showSubtitle={true} />
           </div>
           <GoldDivider className="max-w-md mx-auto my-3" />
           <h3 className="font-serif text-3xl sm:text-4xl text-[#FDF9F0]">

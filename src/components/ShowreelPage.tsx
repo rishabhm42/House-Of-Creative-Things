@@ -26,16 +26,9 @@ export const ShowreelPage: React.FC<ShowreelPageProps> = ({
     <div className="pt-24 md:pt-32">
       {/* Editorial Page Masthead */}
       <section className="px-6 md:px-12 pb-14 border-b border-[#F8F1E7]/20 relative overflow-hidden">
-        <div className="absolute top-0 right-0 opacity-15 pointer-events-none">
-          <GoldMandalaCorner className="w-48 h-48 text-[#F8F1E7]" position="top-right" />
-        </div>
-        <div className="absolute bottom-0 left-0 opacity-15 pointer-events-none">
-          <GoldMandalaCorner className="w-48 h-48 text-[#F8F1E7]" position="bottom-left" />
-        </div>
-
         <div className="max-w-7xl mx-auto relative z-10">
           <div className="flex items-center gap-3 mb-5">
-            <MarigoldCrest className="w-4 h-4 text-[#F8F1E7]" />
+            <span className="w-6 h-[1px] bg-[#F8F1E7]" />
             <span className="text-[10px] uppercase tracking-[0.35em] text-[#F8F1E7] font-mono font-bold">
               HOCT Cinema Screening Room
             </span>
@@ -47,9 +40,6 @@ export const ShowreelPage: React.FC<ShowreelPageProps> = ({
 
           <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-10">
             <div className="max-w-3xl">
-              <div className="my-2">
-                <RoyalJharokhaArch className="w-24 h-6 text-[#F8F1E7]/75" />
-              </div>
               <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl text-[#FDF9F0] font-normal leading-[1.05]">
                 Cinema Showreel <br />
                 <span className="italic font-serif gold-gradient-text">& Motion Showcase</span>
@@ -102,9 +92,6 @@ export const ShowreelPage: React.FC<ShowreelPageProps> = ({
           </div>
 
           <div className="mt-16 p-8 sm:p-12 border-2 border-[#F8F1E7]/40 bg-[#1E0407]/90 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-2xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 opacity-10 pointer-events-none">
-              <GoldMandalaCorner className="w-36 h-36 text-[#F8F1E7]" position="top-right" />
-            </div>
             <div className="relative z-10">
               <h3 className="font-serif text-2xl sm:text-3xl text-[#FDF9F0]">
                 Commission a bespoke cinema edit.

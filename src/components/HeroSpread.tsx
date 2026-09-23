@@ -1,8 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Play, ArrowDown, Compass, Sparkles } from 'lucide-react';
+import { Play, ArrowDown, Compass } from 'lucide-react';
 import { HoctLogo } from './HoctLogo';
-import { RoyalJharokhaArch, GoldMandalaCorner } from './IndianMotif';
 
 interface HeroSpreadProps {
   onExplorePortfolio: () => void;
@@ -14,12 +13,8 @@ export const HeroSpread: React.FC<HeroSpreadProps> = ({
   onOpenReel,
 }) => {
   return (
-    <section id="hero" className="relative min-h-screen pt-32 pb-20 md:pt-38 md:pb-24 flex flex-col justify-between overflow-hidden bg-[#3D0A10] text-[#FDF9F0]">
-      {/* Corner Golden Mandala Ornaments */}
-      <GoldMandalaCorner position="top-left" className="absolute top-20 left-4 w-24 h-24 text-[#F8F1E7] opacity-40 hidden md:block" />
-      <GoldMandalaCorner position="top-right" className="absolute top-20 right-4 w-24 h-24 text-[#F8F1E7] opacity-40 hidden md:block" />
-
-      {/* Background Subtle Royal Indian Jali Lattice */}
+    <section id="hero" className="relative min-h-screen pt-24 sm:pt-28 md:pt-32 pb-16 md:pb-20 flex flex-col justify-between overflow-hidden bg-[#3D0A10] text-[#FDF9F0]">
+      {/* Background Subtle Editorial Grid */}
       <div className="absolute inset-0 pointer-events-none opacity-25">
         <div className="max-w-7xl mx-auto h-full px-6 md:px-12 grid grid-cols-4 md:grid-cols-12 gap-6">
           <div className="border-r border-[#F8F1E7]/20 h-full col-span-1 hidden md:block"></div>
@@ -30,12 +25,13 @@ export const HeroSpread: React.FC<HeroSpreadProps> = ({
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10 w-full flex-1 flex flex-col justify-between">
         {/* Top Editorial Index & Manifesto */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-8 border-b border-[#F8F1E7]/30">
-          <div className="flex items-center gap-4">
-            <span className="inline-flex items-center gap-1.5 px-3.5 py-1 text-[10px] tracking-[0.3em] uppercase bg-gradient-to-r from-[#F8F1E7] via-[#FCF9F5] to-[#E8DCCB] text-[#2A060B] font-bold shadow-md shadow-[#F8F1E7]/20">
-              <Sparkles className="w-3 h-3 text-[#2A060B]" />
-              HOCT Studio
-            </span>
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 pb-6 md:pb-8 border-b border-[#F8F1E7]/30">
+          <div className="flex items-center gap-4 sm:gap-6">
+            <HoctLogo
+              className="h-10 sm:h-12 md:h-14 w-auto object-contain"
+              showSubtitle={false}
+            />
+            <div className="h-6 w-[1px] bg-[#F8F1E7]/30 hidden sm:block" />
             <span className="text-xs uppercase tracking-[0.25em] text-[#F8F1E7] font-mono">
               House of Creative Things // Video & Design
             </span>
@@ -55,10 +51,6 @@ export const HeroSpread: React.FC<HeroSpreadProps> = ({
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             >
-              <div className="mb-4 flex items-center gap-4">
-                <HoctLogo className="h-10 sm:h-12 w-auto" />
-                <RoyalJharokhaArch className="w-20 h-8 text-[#F8F1E7]" />
-              </div>
               <span className="text-xs tracking-[0.45em] uppercase text-[#F8F1E7] font-semibold block mb-3 font-mono">
                 VIDEO EDITING • GRAPHIC DESIGN
               </span>

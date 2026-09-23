@@ -18,14 +18,6 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
 
   return (
     <section id="services" className="py-24 md:py-36 bg-[#2A060B] text-[#FDF9F0] relative border-t border-[#F8F1E7]/25 overflow-hidden">
-      {/* Background Mandala Accents */}
-      <div className="absolute top-0 right-0 opacity-10 pointer-events-none">
-        <GoldMandalaCorner className="w-56 h-56 text-[#F8F1E7]" position="top-right" />
-      </div>
-      <div className="absolute bottom-0 left-0 opacity-10 pointer-events-none">
-        <GoldMandalaCorner className="w-56 h-56 text-[#F8F1E7]" position="bottom-left" />
-      </div>
-
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         {/* Section Header */}
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 pb-12 border-b border-[#F8F1E7]/25">

@@ -62,9 +62,9 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#3D0A10] text-[#FDF9F0] relative selection:bg-[#F8F1E7] selection:text-[#2A060B]">
-      {/* Indian Royal Jali Lattice & Gold Grain Ambient Overlay */}
-      <div className="fixed inset-0 pointer-events-none z-40 indian-jali-overlay opacity-60" />
-      <div className="fixed inset-0 pointer-events-none z-40 editorial-grain opacity-50" />
+      {/* Editorial Leopard Print Ambient Overlay across the entire website */}
+      <div className="fixed inset-0 pointer-events-none z-30 leopard-print-overlay opacity-30 sm:opacity-35" />
+      <div className="fixed inset-0 pointer-events-none z-40 editorial-grain opacity-40" />
 
       {/* Top Navigation Bar with Page Tabs */}
       <Navbar

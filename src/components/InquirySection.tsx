@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Send, CheckCircle2, ArrowRight, ShieldCheck, Phone, Mail, User, Building, MessageSquare, Sparkles } from 'lucide-react';
 import { InquiryFormData } from '../types';
-import { RoyalJharokhaArch, GoldMandalaCorner } from './IndianMotif';
 
 interface InquirySectionProps {
   preselectedService?: string;
@@ -37,20 +36,9 @@ export const InquirySection: React.FC<InquirySectionProps> = ({
 
   return (
     <section id="inquire" className="py-24 md:py-36 bg-[#2A060B] text-[#FDF9F0] relative border-t border-[#F8F1E7]/25 overflow-hidden">
-      {/* Background Mandala Accents */}
-      <div className="absolute top-0 right-0 opacity-10 pointer-events-none">
-        <GoldMandalaCorner className="w-56 h-56 text-[#F8F1E7]" position="top-right" />
-      </div>
-      <div className="absolute bottom-0 left-0 opacity-10 pointer-events-none">
-        <GoldMandalaCorner className="w-56 h-56 text-[#F8F1E7]" position="bottom-left" />
-      </div>
-
       <div className="max-w-4xl mx-auto px-6 md:px-12 relative z-10">
         {/* Section Heading */}
         <div className="text-center max-w-2xl mx-auto mb-14">
-          <div className="flex justify-center mb-3">
-            <RoyalJharokhaArch className="w-24 h-6 text-[#F8F1E7]/80" />
-          </div>
           <span className="text-xs uppercase tracking-[0.35em] text-[#F8F1E7] font-bold block mb-3 font-mono">
             Direct Inquiries
           </span>

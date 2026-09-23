@@ -7,20 +7,7 @@ import { RoyalJharokhaArch, GoldMandalaCorner, GoldDivider, MarigoldCrest } from
 export const PhilosophySection: React.FC = () => {
   return (
     <section id="philosophy" className="py-24 md:py-36 bg-[#2A060B] text-[#FDF9F0] relative overflow-hidden border-t border-[#F8F1E7]/25">
-      {/* Background Mandala Accents */}
-      <div className="absolute top-0 right-0 opacity-10 pointer-events-none">
-        <GoldMandalaCorner className="w-56 h-56 text-[#F8F1E7]" position="top-right" />
-      </div>
-      <div className="absolute bottom-0 left-0 opacity-10 pointer-events-none">
-        <GoldMandalaCorner className="w-56 h-56 text-[#F8F1E7]" position="bottom-left" />
-      </div>
-
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
-        {/* Arch Accent */}
-        <div className="flex justify-center mb-8">
-          <RoyalJharokhaArch className="w-28 h-8 text-[#F8F1E7]/80" />
-        </div>
-
         {/* Asymmetrical Editorial Narrative Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           {/* Left Column: Stacked Black & White Photography Stills */}

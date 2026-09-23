@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Felix Titling';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Felix Titling'), local('FelixTitling'), url('https://fonts.cdnfonts.com/s/17537/FELIXTI.woff') format('woff');
+  font-display: swap;
+}
+
 @layer base {
   :root {
     --bg-canvas: #3D0A10; /* Royal Deep Crimson Burgundy */
@@ -19,28 +27,31 @@
     overflow-x: hidden;
   }
 
-  h1, h2, h3, .font-serif-title {
-    font-family: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
-  }
-
-  .font-display {
-    font-family: 'Cinzel', 'Bodoni Moda', 'Cormorant Garamond', Georgia, serif;
+  /* Headings with Felix Titling */
+  h1, h2, h3, h4, h5, h6, .font-serif, .font-serif-title, .font-display, .font-titling {
+    font-family: 'Felix Titling', 'FelixTitling', 'Cinzel', 'Cinzel Decorative', 'Bodoni Moda', 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: 0.03em;
   }
 
   .font-royal {
-    font-family: 'Cinzel Decorative', 'Cinzel', serif;
+    font-family: 'Felix Titling', 'FelixTitling', 'Cinzel Decorative', 'Cinzel', serif;
   }
 
-  /* Monotone Black & White Editorial Media Styling */
-  img, video {
+  /* Monotone Black & White Editorial Media Styling (excludes brand logo) */
+  img:not(.brand-logo-img), video {
     filter: grayscale(100%) contrast(115%) brightness(95%) !important;
     -webkit-filter: grayscale(100%) contrast(115%) brightness(95%) !important;
     transition: filter 0.4s ease, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  img:hover, video:hover {
+  img:not(.brand-logo-img):hover, video:hover {
     filter: grayscale(100%) contrast(122%) brightness(100%) !important;
     -webkit-filter: grayscale(100%) contrast(122%) brightness(100%) !important;
+  }
+
+  .brand-logo-img {
+    filter: none !important;
+    -webkit-filter: none !important;
   }
 }
 
@@ -63,19 +74,17 @@
   background: #F8F1E7;
 }
 
+/* High Fashion Leopard Print Velvet Overlay */
+.leopard-print-overlay {
+  background-image: url('/leopard-pattern.svg');
+  background-repeat: repeat;
+  background-size: 160px 160px;
+}
+
 /* Editorial subtle gold zari & image grain effect */
 .editorial-grain {
   background-image: radial-gradient(rgba(248, 241, 231, 0.08) 1px, transparent 0);
   background-size: 24px 24px;
-}
-
-/* Indian Jali Lattice Pattern Overlay */
-.indian-jali-overlay {
-  background-image: 
-    radial-gradient(circle at center, rgba(248, 241, 231, 0.05) 1px, transparent 1px),
-    linear-gradient(45deg, rgba(248, 241, 231, 0.02) 25%, transparent 25%, transparent 75%, rgba(248, 241, 231, 0.02) 75%),
-    linear-gradient(-45deg, rgba(248, 241, 231, 0.02) 25%, transparent 25%, transparent 75%, rgba(248, 241, 231, 0.02) 75%);
-  background-size: 40px 40px;
 }
 
 /* Golden Shimmer / Metallic Text Effect */
