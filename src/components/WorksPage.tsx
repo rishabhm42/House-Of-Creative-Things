@@ -46,7 +46,6 @@ export const WorksPage: React.FC<WorksPageProps> = ({
                 className="px-6 py-3 rounded-full border border-[#F8F1E7]/50 text-xs uppercase tracking-[0.2em] font-semibold text-[#F8F1E7] hover:bg-[#F8F1E7] hover:text-[#2A060B] transition-all cursor-pointer flex items-center gap-2 shadow-sm"
               >
                 <span>View Services Spectrum</span>
-                <ArrowRight className="w-3.5 h-3.5" />
               </button>
             </div>
           </div>
@@ -73,10 +72,9 @@ export const WorksPage: React.FC<WorksPageProps> = ({
 
           <button
             onClick={() => onNavigateTo('inquire')}
-            className="px-8 py-4 rounded-full bg-gradient-to-r from-[#F8F1E7] via-[#FCF9F5] to-[#E8DCCB] text-[#2A060B] text-xs uppercase tracking-[0.25em] font-bold hover:shadow-xl hover:shadow-[#F8F1E7]/30 transition-all shadow-xl flex items-center gap-3 shrink-0 cursor-pointer"
+            className="px-8 py-4 bg-[#F8F1E7] text-[#2A060B] text-xs uppercase tracking-[0.25em] font-bold hover:bg-[#FCF9F5] transition-all flex items-center gap-3 shrink-0 cursor-pointer active:scale-95"
           >
             <span>Initiate Project Inquiry</span>
-            <ArrowUpRight className="w-4 h-4" />
           </button>
         </div>
       </section>

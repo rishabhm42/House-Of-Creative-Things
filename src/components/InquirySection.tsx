@@ -195,15 +195,12 @@ export const InquirySection: React.FC<InquirySectionProps> = ({
                 id="submit-contact-details-btn"
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full sm:w-auto px-9 py-3.5 rounded-full bg-gradient-to-r from-[#F8F1E7] via-[#FCF9F5] to-[#E8DCCB] text-[#2A060B] text-xs uppercase tracking-[0.2em] font-bold hover:shadow-xl hover:shadow-[#F8F1E7]/40 transition-all duration-300 shadow-xl flex items-center justify-center gap-3 cursor-pointer disabled:opacity-50"
+                className="w-full sm:w-auto px-9 py-4 bg-[#F8F1E7] text-[#2A060B] text-xs uppercase tracking-[0.2em] font-bold hover:bg-[#FCF9F5] transition-all flex items-center justify-center gap-3 cursor-pointer disabled:opacity-50 active:scale-95"
               >
                 {isSubmitting ? (
                   <span>Sending Details...</span>
                 ) : (
-                  <>
-                    <span>Send Contact Details</span>
-                    <ArrowRight className="w-4 h-4" />
-                  </>
+                  <span>Send Contact Details</span>
                 )}
               </button>
             </div>

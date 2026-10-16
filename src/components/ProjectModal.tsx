@@ -126,11 +126,15 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
             </div>
           </div>
         ) : (
-          <div className="relative aspect-[16/10] w-full overflow-hidden mb-12 border-2 border-[#F8F1E7]/40 shadow-2xl">
+          <div className={`relative w-full overflow-hidden mb-12 border-2 border-[#F8F1E7]/40 shadow-2xl bg-[#150204] flex items-center justify-center ${
+            project.aspectRatio === 'portrait' ? 'aspect-[3/4] sm:aspect-[896/1200] max-w-2xl mx-auto' : 'aspect-[16/10]'
+          }`}>
             <img
               src={project.coverImage}
               alt={project.title}
-              className="w-full h-full object-cover filter contrast-105"
+              className={`w-full h-full filter contrast-105 ${
+                project.aspectRatio === 'portrait' ? 'object-contain' : 'object-cover'
+              }`}
             />
           </div>
         )}
@@ -185,10 +189,9 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
                   onClose();
                   onInquireSimilar(project.title);
                 }}
-                className="w-full py-3 rounded-full bg-gradient-to-r from-[#F8F1E7] via-[#FCF9F5] to-[#E8DCCB] text-[#2A060B] text-xs uppercase tracking-[0.2em] font-bold hover:shadow-lg hover:shadow-[#F8F1E7]/30 transition-all flex items-center justify-center gap-2 cursor-pointer shadow-lg"
+                className="w-full py-3.5 bg-[#F8F1E7] text-[#2A060B] text-xs uppercase tracking-[0.2em] font-bold hover:bg-[#FCF9F5] transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-95"
               >
                 <span>Commission Similar Project</span>
-                <ArrowRight className="w-3.5 h-3.5" />
               </button>
             </div>
           </div>
@@ -202,11 +205,11 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
             </h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {project.editorialImages.slice(1).map((imgUrl, i) => (
-                <div key={i} className="aspect-[4/3] overflow-hidden border border-[#F8F1E7]/30 group">
+                <div key={i} className="aspect-[3/4] sm:aspect-[4/3] overflow-hidden border border-[#F8F1E7]/30 group bg-[#150204] flex items-center justify-center">
                   <img
                     src={imgUrl}
                     alt={`${project.title} spread ${i + 1}`}
-                    className="w-full h-full object-cover filter contrast-105 group-hover:scale-105 transition-transform duration-700"
+                    className="w-full h-full object-contain filter contrast-105 group-hover:scale-105 transition-transform duration-700"
                   />
                 </div>
               ))}

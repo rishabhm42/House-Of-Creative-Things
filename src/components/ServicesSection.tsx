@@ -35,20 +35,19 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
           </div>
 
           {/* Toggle between Video Editing & Graphic Design */}
-          <div className="flex items-center bg-[#1E0407]/90 p-1.5 rounded-full border-2 border-[#F8F1E7]/40 shadow-xl">
+          <div className="flex items-center bg-[#1E0407] border border-[#F8F1E7]/30 p-1">
             <button
               id="services-tab-video"
               onClick={() => {
                 setActiveTab('video');
                 setSelectedService(null);
               }}
-              className={`flex items-center gap-2 px-6 py-2.5 rounded-full text-xs uppercase tracking-[0.2em] font-medium transition-all duration-300 cursor-pointer ${
+              className={`px-6 py-2 text-xs uppercase tracking-[0.2em] font-medium transition-colors cursor-pointer ${
                 activeTab === 'video'
-                  ? 'bg-gradient-to-r from-[#F8F1E7] via-[#FCF9F5] to-[#E8DCCB] text-[#2A060B] font-bold shadow-md'
+                  ? 'bg-[#F8F1E7] text-[#2A060B] font-bold'
                   : 'text-[#F8F1E7]/80 hover:text-white'
               }`}
             >
-              <Film className="w-3.5 h-3.5" />
               <span>Video Editing ({videoServices.length})</span>
             </button>
 
@@ -58,13 +57,12 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
                 setActiveTab('design');
                 setSelectedService(null);
               }}
-              className={`flex items-center gap-2 px-6 py-2.5 rounded-full text-xs uppercase tracking-[0.2em] font-medium transition-all duration-300 cursor-pointer ${
+              className={`px-6 py-2 text-xs uppercase tracking-[0.2em] font-medium transition-colors cursor-pointer ${
                 activeTab === 'design'
-                  ? 'bg-gradient-to-r from-[#F8F1E7] via-[#FCF9F5] to-[#E8DCCB] text-[#2A060B] font-bold shadow-md'
+                  ? 'bg-[#F8F1E7] text-[#2A060B] font-bold'
                   : 'text-[#F8F1E7]/80 hover:text-white'
               }`}
             >
-              <Palette className="w-3.5 h-3.5" />
               <span>Graphic Design ({graphicDesignServices.length})</span>
             </button>
           </div>
@@ -157,7 +155,6 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({
                       className="inline-flex items-center gap-1.5 text-[11px] uppercase tracking-[0.2em] font-semibold text-[#F8F1E7] group-hover:text-white transition-colors"
                     >
                       <span>Inquire</span>
-                      <ArrowRight className="w-3 h-3" />
                     </button>
                   </div>
                 </div>

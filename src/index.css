@@ -30,7 +30,8 @@
   /* Headings with Felix Titling */
   h1, h2, h3, h4, h5, h6, .font-serif, .font-serif-title, .font-display, .font-titling {
     font-family: 'Felix Titling', 'FelixTitling', 'Cinzel', 'Cinzel Decorative', 'Bodoni Moda', 'Cormorant Garamond', Georgia, serif;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.04em;
+    text-wrap: balance;
   }
 
   .font-royal {
@@ -74,13 +75,6 @@
   background: #F8F1E7;
 }
 
-/* High Fashion Leopard Print Velvet Overlay */
-.leopard-print-overlay {
-  background-image: url('/leopard-pattern.svg');
-  background-repeat: repeat;
-  background-size: 160px 160px;
-}
-
 /* Editorial subtle gold zari & image grain effect */
 .editorial-grain {
   background-image: radial-gradient(rgba(248, 241, 231, 0.08) 1px, transparent 0);
@@ -89,16 +83,14 @@
 
 /* Golden Shimmer / Metallic Text Effect */
 .gold-gradient-text {
-  background: linear-gradient(135deg, #FCF9F5 0%, #F8F1E7 50%, #E8DCCB 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #F8F1E7;
 }
 
 .gold-gradient-border {
-  border-image: linear-gradient(to right, #D5C1A7, #FCF9F5, #F8F1E7, #D5C1A7) 1;
+  border-color: rgba(248, 241, 231, 0.4);
 }
 
 .gold-glow {
-  box-shadow: 0 0 25px rgba(248, 241, 231, 0.18);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 

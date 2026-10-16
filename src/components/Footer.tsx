@@ -8,12 +8,14 @@ interface FooterProps {
   logoConfig: LogoConfig;
   onNavigateTo: (page: ActivePage) => void;
   onOpenInquiry: () => void;
+  onReplayLoader?: () => void;
 }
 
 export const Footer: React.FC<FooterProps> = ({
   logoConfig,
   onNavigateTo,
   onOpenInquiry,
+  onReplayLoader,
 }) => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -26,36 +28,30 @@ export const Footer: React.FC<FooterProps> = ({
 
   return (
     <footer id="site-footer" className="bg-[#2A060B] text-[#FDF9F0] pt-24 pb-16 relative overflow-hidden border-t-2 border-[#F8F1E7]/30">
-      {/* Background Graphic Watermark */}
-      <div className="absolute bottom-0 right-0 select-none pointer-events-none opacity-[0.03] font-serif text-[26vw] leading-none whitespace-nowrap text-[#F8F1E7] font-bold tracking-tighter">
-        HOCT
-      </div>
-
       <div className="max-w-7xl mx-auto px-6 md:px-12 relative z-10">
         {/* Massive Editorial Invitation Headline */}
         <div className="pb-16 border-b border-[#F8F1E7]/25 flex flex-col lg:flex-row lg:items-end justify-between gap-10">
           <div className="max-w-3xl">
             <div className="flex items-center gap-3 mb-4">
-              <span className="w-6 h-[1px] bg-[#F8F1E7]" />
-              <span className="text-xs uppercase tracking-[0.35em] text-[#F8F1E7] font-semibold font-mono">
-                Studio Commissions
+              <span className="w-8 h-[1px] bg-[#F8F1E7]/60" />
+              <span className="text-[11px] uppercase tracking-[0.35em] text-[#F8F1E7] font-semibold font-mono">
+                Studio Commissions · 2025–2026
               </span>
             </div>
-            <h2 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-[#FDF9F0] font-normal leading-[0.98]">
+            <h2 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-[#FDF9F0] font-normal leading-[0.98] text-balance">
               Let’s Construct <br />
               <span className="gold-gradient-text italic font-serif font-medium">The Everlasting.</span>
             </h2>
           </div>
 
-          <div className="flex flex-col items-start lg:items-end gap-4">
+          <div className="flex flex-col items-start lg:items-end gap-3.5">
             <button
               onClick={onOpenInquiry}
-              className="px-8 py-4 rounded-full bg-gradient-to-r from-[#F8F1E7] via-[#FCF9F5] to-[#E8DCCB] text-[#2A060B] text-xs uppercase tracking-[0.25em] font-bold hover:shadow-xl hover:shadow-[#F8F1E7]/30 transition-all duration-300 shadow-xl flex items-center gap-3 group cursor-pointer"
+              className="px-9 py-4 bg-[#F8F1E7] text-[#2A060B] text-xs uppercase tracking-[0.25em] font-bold hover:bg-[#FCF9F5] transition-all flex items-center gap-3 cursor-pointer active:scale-95"
             >
               <span>Initiate Project Commission</span>
-              <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </button>
-            <span className="text-[11px] uppercase tracking-[0.2em] text-[#F8F1E7] font-mono">
+            <span className="text-[11px] uppercase tracking-[0.2em] text-[#F8F1E7]/80 font-mono">
               Creative Director review within 24h
             </span>
           </div>
@@ -196,8 +192,19 @@ export const Footer: React.FC<FooterProps> = ({
 
         {/* Colophon & Return to Top */}
         <div className="pt-10 flex flex-col sm:flex-row items-center justify-between gap-6 text-[11px] text-[#FDF9F0]/60 font-mono">
-          <div className="flex items-center gap-4">
+          <div className="flex flex-wrap items-center gap-4">
             <span>© {new Date().getFullYear()} HOUSE OF CREATIVE THINGS (HOCT). ALL RIGHTS RESERVED.</span>
+            {onReplayLoader && (
+              <>
+                <span className="hidden sm:inline text-[#F8F1E7]/30">•</span>
+                <button
+                  onClick={onReplayLoader}
+                  className="text-[#F8F1E7] hover:text-[#FCF9F5] underline underline-offset-4 decoration-[#F8F1E7]/40 hover:decoration-[#F8F1E7] transition-all cursor-pointer"
+                >
+                  Experience Leopard Loader
+                </button>
+              </>
+            )}
           </div>
 
           <button

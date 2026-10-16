@@ -66,10 +66,9 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({
             <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => onNavigateTo('inquire')}
-                className="px-7 py-3.5 rounded-full bg-gradient-to-r from-[#F8F1E7] via-[#FCF9F5] to-[#E8DCCB] text-[#2A060B] text-xs uppercase tracking-[0.25em] font-bold hover:shadow-xl hover:shadow-[#F8F1E7]/30 transition-all cursor-pointer flex items-center gap-2"
+                className="px-8 py-3.5 bg-[#F8F1E7] text-[#2A060B] text-xs uppercase tracking-[0.25em] font-bold hover:bg-[#FCF9F5] transition-all cursor-pointer flex items-center gap-2 active:scale-95"
               >
                 <span>Initiate Custom Brief</span>
-                <ArrowUpRight className="w-3.5 h-3.5" />
               </button>
             </div>
           </div>
@@ -80,7 +79,7 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({
       <section className="py-20 px-6 md:px-12 border-b border-[#F8F1E7]/20 bg-[#230508]/70 relative">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center gap-3 mb-3">
-            <Sparkles className="w-4 h-4 text-[#F8F1E7]" />
+            <span className="w-8 h-[1px] bg-[#F8F1E7]/60" />
             <span className="text-[10px] uppercase tracking-[0.35em] font-mono text-[#F8F1E7] font-bold">
               Atelier Methodology
             </span>
@@ -114,7 +113,9 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({
       <section className="py-24 px-6 md:px-12 border-t border-[#F8F1E7]/25 bg-[#230508]/85">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="p-8 border-2 border-[#F8F1E7]/30 bg-[#1E0407]/80 space-y-4 rounded-xs shadow-xl">
-            <Clock className="w-6 h-6 text-[#F8F1E7]" />
+            <span className="text-[10px] uppercase tracking-[0.25em] font-mono text-[#F8F1E7] block font-bold">
+              Timeline · SLA
+            </span>
             <h4 className="font-serif text-2xl text-[#FDF9F0]">Turnaround Precision</h4>
             <p className="text-xs sm:text-sm text-[#FDF9F0]/80 font-light leading-relaxed">
               Standard turnaround is 5–10 business days for editorial reels and 2–3 weeks for complete brand identity systems. Expedited rush deliveries available on request.
@@ -122,7 +123,9 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({
           </div>
 
           <div className="p-8 border-2 border-[#F8F1E7]/30 bg-[#1E0407]/80 space-y-4 rounded-xs shadow-xl">
-            <Sliders className="w-6 h-6 text-[#F8F1E7]" />
+            <span className="text-[10px] uppercase tracking-[0.25em] font-mono text-[#F8F1E7] block font-bold">
+              Flexibility · Deliverables
+            </span>
             <h4 className="font-serif text-2xl text-[#FDF9F0]">Bespoke Royal Adaptability</h4>
             <p className="text-xs sm:text-sm text-[#FDF9F0]/80 font-light leading-relaxed">
               Every commission is tailored to your brand’s specific guidelines. We supply both native edit project files (Premiere / DaVinci) and flattened 24K broadcast masters.
@@ -130,7 +133,9 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({
           </div>
 
           <div className="p-8 border-2 border-[#F8F1E7]/30 bg-[#1E0407]/80 space-y-4 rounded-xs shadow-xl">
-            <Sparkles className="w-6 h-6 text-[#F8F1E7]" />
+            <span className="text-[10px] uppercase tracking-[0.25em] font-mono text-[#F8F1E7] block font-bold">
+              Artistic Access · Direct
+            </span>
             <h4 className="font-serif text-2xl text-[#FDF9F0]">Direct Collaboration</h4>
             <p className="text-xs sm:text-sm text-[#FDF9F0]/80 font-light leading-relaxed">
               You collaborate directly with our senior creative director. No intermediary account managers or diluted feedback loops.

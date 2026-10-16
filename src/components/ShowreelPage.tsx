@@ -52,10 +52,9 @@ export const ShowreelPage: React.FC<ShowreelPageProps> = ({
             <div className="flex flex-col sm:flex-row gap-4">
               <button
                 onClick={() => onNavigateTo('inquire')}
-                className="px-7 py-3.5 rounded-full bg-gradient-to-r from-[#F8F1E7] via-[#FCF9F5] to-[#E8DCCB] text-[#2A060B] text-xs uppercase tracking-[0.25em] font-bold hover:shadow-xl hover:shadow-[#F8F1E7]/30 transition-all cursor-pointer flex items-center gap-2"
+                className="px-8 py-3.5 bg-[#F8F1E7] text-[#2A060B] text-xs uppercase tracking-[0.25em] font-bold hover:bg-[#FCF9F5] transition-all cursor-pointer flex items-center gap-2 active:scale-95"
               >
                 <span>Book Video Project</span>
-                <ArrowUpRight className="w-3.5 h-3.5" />
               </button>
             </div>
           </div>
@@ -80,7 +79,7 @@ export const ShowreelPage: React.FC<ShowreelPageProps> = ({
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {cinemaSpecs.map((spec, i) => (
-              <div key={i} className="p-6 border-2 border-[#F8F1E7]/30 bg-[#1E0407]/80 rounded-xs space-y-2 shadow-lg">
+              <div key={i} className="p-6 border border-[#F8F1E7]/30 bg-[#1E0407]/80 space-y-2">
                 <span className="text-[10px] uppercase tracking-[0.25em] font-mono text-[#F8F1E7] block font-bold">
                   {spec.label}
                 </span>
@@ -91,7 +90,7 @@ export const ShowreelPage: React.FC<ShowreelPageProps> = ({
             ))}
           </div>
 
-          <div className="mt-16 p-8 sm:p-12 border-2 border-[#F8F1E7]/40 bg-[#1E0407]/90 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-2xl relative overflow-hidden">
+          <div className="mt-16 p-8 sm:p-12 border border-[#F8F1E7]/40 bg-[#1E0407]/90 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-2xl relative overflow-hidden">
             <div className="relative z-10">
               <h3 className="font-serif text-2xl sm:text-3xl text-[#FDF9F0]">
                 Commission a bespoke cinema edit.
@@ -102,7 +101,7 @@ export const ShowreelPage: React.FC<ShowreelPageProps> = ({
             </div>
             <button
               onClick={() => onNavigateTo('inquire')}
-              className="relative z-10 px-7 py-3.5 rounded-full bg-gradient-to-r from-[#F8F1E7] via-[#FCF9F5] to-[#E8DCCB] text-[#2A060B] text-xs uppercase tracking-[0.25em] font-bold hover:shadow-xl hover:shadow-[#F8F1E7]/30 transition-all cursor-pointer shrink-0"
+              className="relative z-10 px-8 py-3.5 bg-[#F8F1E7] text-[#2A060B] text-xs uppercase tracking-[0.25em] font-bold hover:bg-[#FCF9F5] transition-all cursor-pointer shrink-0 active:scale-95"
             >
               Initiate Booking
             </button>

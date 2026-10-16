@@ -53,14 +53,13 @@ export const ShowreelSection: React.FC<ShowreelSectionProps> = ({ onOpenInquiry 
           </div>
 
           {/* Aspect Ratio Switcher */}
-          <div className="flex items-center gap-2 bg-[#1E0407]/90 p-1.5 rounded-full border-2 border-[#F8F1E7]/40 shadow-xl">
-            <span className="text-xs uppercase tracking-[0.2em] text-[#F8F1E7] font-bold mr-2 ml-2 font-mono">Format:</span>
+          <div className="flex items-center bg-[#1E0407] border border-[#F8F1E7]/30 p-1">
             <button
               onClick={() => setAspectMode('cinema')}
-              className={`px-4 py-2 rounded-full text-xs uppercase tracking-[0.15em] flex items-center gap-1.5 transition-all cursor-pointer ${
+              className={`px-4 py-2 text-xs uppercase tracking-[0.15em] flex items-center gap-1.5 transition-colors cursor-pointer ${
                 aspectMode === 'cinema'
-                  ? 'bg-gradient-to-r from-[#F8F1E7] via-[#FCF9F5] to-[#E8DCCB] text-[#2A060B] font-bold shadow-md'
-                  : 'border border-[#F8F1E7]/35 text-[#FDF9F0]/80 hover:border-[#F8F1E7] hover:text-white'
+                  ? 'bg-[#F8F1E7] text-[#2A060B] font-bold'
+                  : 'text-[#FDF9F0]/80 hover:text-white'
               }`}
             >
               <Monitor className="w-3.5 h-3.5" />
@@ -69,10 +68,10 @@ export const ShowreelSection: React.FC<ShowreelSectionProps> = ({ onOpenInquiry 
 
             <button
               onClick={() => setAspectMode('vertical')}
-              className={`px-4 py-2 rounded-full text-xs uppercase tracking-[0.15em] flex items-center gap-1.5 transition-all cursor-pointer ${
+              className={`px-4 py-2 text-xs uppercase tracking-[0.15em] flex items-center gap-1.5 transition-colors cursor-pointer ${
                 aspectMode === 'vertical'
-                  ? 'bg-gradient-to-r from-[#F8F1E7] via-[#FCF9F5] to-[#E8DCCB] text-[#2A060B] font-bold shadow-md'
-                  : 'border border-[#F8F1E7]/35 text-[#FDF9F0]/80 hover:border-[#F8F1E7] hover:text-white'
+                  ? 'bg-[#F8F1E7] text-[#2A060B] font-bold'
+                  : 'text-[#FDF9F0]/80 hover:text-white'
               }`}
             >
               <Smartphone className="w-3.5 h-3.5" />
