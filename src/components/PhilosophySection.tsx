@@ -91,37 +91,6 @@ export const PhilosophySection: React.FC = () => {
               </div>
             </div>
 
-            {/* Studio Brand Color Palette Specimen Card */}
-            <div className="mt-10 p-6 bg-[#1E0407]/80 border-2 border-[#F8F1E7]/30 shadow-xl">
-              <span className="text-[10px] uppercase tracking-[0.25em] text-[#F8F1E7] font-semibold block mb-3 font-mono">
-                Studio Palette Specification // Soft Cream Harmony
-              </span>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div className="flex items-center gap-3 p-3 bg-black/40 border border-[#F8F1E7]/30">
-                  <div className="w-8 h-8 rounded-xs bg-[#2A060B] border-2 border-[#F8F1E7]" />
-                  <div className="text-xs text-[#FDF9F0]">
-                    <span className="font-mono font-bold block text-[#F8F1E7]">#2A060B</span>
-                    <span className="text-[#FDF9F0]/70 text-[11px]">Deep Burgundy Wine</span>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-3 p-3 bg-black/40 border border-[#F8F1E7]/30">
-                  <div className="w-8 h-8 rounded-xs bg-gradient-to-tr from-[#F8F1E7] to-[#FCF9F5] border border-black/40" />
-                  <div className="text-xs text-[#FDF9F0]">
-                    <span className="font-mono font-bold block text-[#F8F1E7]">#F8F1E7</span>
-                    <span className="text-[#FDF9F0]/70 text-[11px]">Soft Cream Accent</span>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-3 p-3 bg-black/40 border border-[#F8F1E7]/30">
-                  <div className="w-8 h-8 rounded-xs bg-[#FDF9F0] border border-black/40" />
-                  <div className="text-xs text-[#FDF9F0]">
-                    <span className="font-mono font-bold block text-[#2A060B] bg-[#FDF9F0] px-1 rounded-xs inline">#FDF9F0</span>
-                    <span className="text-[#FDF9F0]/70 text-[11px] block mt-0.5">Warm Ivory Paper</span>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
 
