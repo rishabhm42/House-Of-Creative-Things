@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Felix Titling';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Felix Titling'), local('FelixTitling'), url('https://fonts.cdnfonts.com/s/17537/FELIXTI.woff') format('woff');
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --bg-canvas: #3D0A10; /* Royal Deep Crimson Burgundy */
+    --text-primary: #FDF9F0; /* Ivory Silk */
+    --brand-wine: #3D0A10;
+    --brand-cream: #FDF9F0;
+    --gold-primary: #F8F1E7; /* Metallic 24K Royal Gold */
+    --gold-light: #FCF9F5; /* Pale Champagne Gold */
+    --gold-dark: #D5C1A7; /* Antique Bronze Gold */
+  }
+
+  body {
+    background-color: #3D0A10;
+    color: #FDF9F0;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: -0.01em;
+    overflow-x: hidden;
+  }
+
+  /* Headings with Felix Titling */
+  h1, h2, h3, h4, h5, h6, .font-serif, .font-serif-title, .font-display, .font-titling {
+    font-family: 'Felix Titling', 'FelixTitling', 'Cinzel', 'Cinzel Decorative', 'Bodoni Moda', 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: 0.04em;
+    text-wrap: balance;
+  }
+
+  .font-royal {
+    font-family: 'Felix Titling', 'FelixTitling', 'Cinzel Decorative', 'Cinzel', serif;
+  }
+
+  /* Monotone Black & White Editorial Media Styling (excludes brand logo) */
+  img:not(.brand-logo-img), video {
+    filter: grayscale(100%) contrast(115%) brightness(95%) !important;
+    -webkit-filter: grayscale(100%) contrast(115%) brightness(95%) !important;
+    transition: filter 0.4s ease, transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  img:not(.brand-logo-img):hover, video:hover {
+    filter: grayscale(100%) contrast(122%) brightness(100%) !important;
+    -webkit-filter: grayscale(100%) contrast(122%) brightness(100%) !important;
+  }
+
+  .brand-logo-img {
+    filter: none !important;
+    -webkit-filter: none !important;
+  }
+}
+
+/* Custom editorial gold scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #2A060B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(248, 241, 231, 0.4);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F8F1E7;
+}
+
+/* Editorial subtle gold zari & image grain effect */
+.editorial-grain {
+  background-image: radial-gradient(rgba(248, 241, 231, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Golden Shimmer / Metallic Text Effect */
+.gold-gradient-text {
+  color: #F8F1E7;
+}
+
+.gold-gradient-border {
+  border-color: rgba(248, 241, 231, 0.4);
+}
+
+.gold-glow {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
